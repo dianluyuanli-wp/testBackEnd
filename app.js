@@ -20,7 +20,7 @@ app.all('*', function(req, res, next) {
 });
 
 //  写个测试接口 get请求
-app.post(apiPrefix + '/query', async function(req,res){
+app.get(apiPrefix + '/query', async function(req,res){
     res.status(200),
     res.json('SUCCESS! from 广兰路地铁');
 });

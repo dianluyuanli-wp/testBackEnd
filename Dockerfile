@@ -8,8 +8,8 @@ RUN mkdir -p /usr/src
 WORKDIR /usr/src
 
 # 拉仓库并且安装
-RUN git clone https://github.com/dianluyuanli-wp/psyBackEnd.git
-WORKDIR /usr/src/psyBackEnd
+RUN git clone https://github.com/dianluyuanli-wp/testBackEnd.git
+WORKDIR /usr/src/testBackEnd
 RUN npm i
 
 EXPOSE 4000
